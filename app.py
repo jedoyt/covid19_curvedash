@@ -8,6 +8,7 @@ import pandas as pd
 
 # Create Dash Main Instance
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 # DATA PREPARATIONS
 
