@@ -1,41 +1,23 @@
-import dash
+import dash 
 import dash_core_components as dcc 
-import dash_html_components as html
-import dash_bootstrap_components as dbc
+import dash_html_components as html 
+import dash_bootstrap_components as dbc 
 from dash.dependencies import Input, Output
-from covid_data import CountryCovidData
+from get_data import get_PH_topline_data, get_global_data
+from trace_figure import load_lineplot_fig, load_bubbleplot_fig, generate_hexcolors
 import pandas as pd
 
-# Create Dash Main Instance
+# Create Dash main instance
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app.config.suppress_callback_exceptions = True
 server = app.server
 
-# DATA PREPARATIONS
+# FETCH ALL NEEDED DATA IN PANDAS DATAFRAMES
+ph_topline_df = get_PH_topline_data() # Latest data on PH
+df = get_global_data() # Global Data
 
-# Read the COVID-19 Dataset
-csv_path = 'covid_data/novel-corona-virus-2019-dataset/covid_19_data.csv'
-covid = pd.read_csv(csv_path,index_col=0)
-
-# Generate data for visualization
-country = 'US' # Choose country
-country_data = CountryCovidData(covid_df = covid,
-                                country = country,
-                                x_dates = covid['ObservationDate'].unique()
-                                )
-data_dict = country_data.get_dict()
-
-# Make a sorted list of countries for the Dropdown Menu
-country_list = list(covid['Country/Region'].unique()) # Get list of countries
-country_list.sort(reverse=False) # Sort list in ascending order
-
-# Other variables
-latest_stats = country_data.get_latest_summary(data_dict = data_dict) # Get latest statistics
-source_link = "https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset"
-PLOTLY_LOGO = "https://images.plot.ly/logo/new-branding/plotly-logomark.png"
-
-# DASH COMPONENTS
-
-# Navigation Bar Setup
+# DASHBOARD COMPONENTS #
+### NAVIGATION BAR ###
 navbar = dbc.NavbarSimple(dbc.NavItem(children=[html.A(html.Img(src="https://image.flaticon.com/icons/svg/1077/1077041.svg",
                                                                 height="30px"), href="https://www.facebook.com/jed.unalivia"),
                                                 html.Span("  "),
@@ -45,42 +27,99 @@ navbar = dbc.NavbarSimple(dbc.NavItem(children=[html.A(html.Img(src="https://ima
                                                 html.A(html.Img(src="https://image.flaticon.com/icons/svg/1384/1384046.svg",
                                                                 height="30px"), href="https://www.linkedin.com/in/jed-u%C3%B1alivia/")
                                                 ], className='navbar-dark'),
-                          brand="COVID-19 Curve Monitoring Dashboard",
+                          brand="COVID-19 Dashboard",
                           brand_href="#",
                           color="light",
                           dark=False,
                           )
 
-# Dropdown Menu Setup for selecting countries
+### UPPER CONTENT ###
+# CONTENT 1: TOPLINE DATA ON PHILIPPINES
+topline_header = [html.Thead(html.Tr([html.Th("Confirmed"), html.Th("Deaths"), html.Th("Recovered")]))]
+topline_body = [html.Tbody(children=[
+                                     html.Tr(children=  [html.Td(html.H2(ph_topline_df.loc['confirmed']['count'])),
+                                                         html.Td(html.H2(ph_topline_df.loc['deaths']['count'])),
+                                                         html.Td(html.H2(ph_topline_df.loc['recovered']['count']))])
+                                     ])]
+topline_table = dbc.Table(topline_header + topline_body, bordered=False)
+
+topline_left = dbc.Col(children=[html.H5("Philippines Latest Counts", className="display-5"),
+                               html.Hr(className="my-2"),
+                               topline_table
+                               ])
+
+# CONTENT 2: DATA SOURCES
+topline_right = dbc.Col(children=[html.H5("Data Sources", className="display-5"),
+                                  html.Hr(className="my-2"),
+                                  dbc.Row([ dbc.Col(html.Small("On latest PH counts:")),
+                                            dbc.Col(html.A('Github', href="https://github.com/jasontalon/ncov-tracker"))]),
+                                  dbc.Row([ dbc.Col(html.Small("On global data for visualizations:")),
+                                            dbc.Col(html.A('Kaggle', href="https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset"))])
+                                  ])
+upper_content_row = dbc.Row(children=[topline_left,topline_right])
+#############################################################
+upper_content = dbc.Jumbotron(children=[upper_content_row]) #
+#############################################################
+
+### LOWER CONTENT ###
+# CONTENT 1: LINE PLOT OF GLOBAL DATA
+country = 'US' # Initially Selected Country
+# Setup Dropdown Menu
+country_list = list(df['country'].unique().copy())
+country_list.sort(reverse=False) # Sort list in ascending order
 country_dictlist = [{'label': country, 'value': country} for country in country_list] # Create a list of dictionary as reference for the dropdown menu
 country_dropdown = dcc.Dropdown(options=country_dictlist, value=country, id='country-selection')
 
-# Setup Graph
-fig = country_data.make_go_figure(data_dict=data_dict)
-graph = dcc.Graph(figure=fig,id='selected-country')
+# Setup Initial Graph
+#lineplot_fig = load_lineplot_fig(df=df,country=country)
+line_graph = dcc.Graph(figure=load_lineplot_fig(df=df,country=country), id='selected-country')
+line_graph_container = dbc.Jumbotron(children=[ html.H4("COVID-19 Global Data: Line Plot"),
+                                                html.H5("Select Country from dropdown", className="display-5"),
+                                                country_dropdown,
+                                                line_graph,
+                                                html.Small(f"Data on this graph is as of {df.iloc[-1]['date']}")
+                                                ])
 
-# Setup content field under jumbotron
-jumbotron = dbc.Jumbotron(
-                          dbc.Container([
-                                         html.H5("Select Country", className="display-5"),
-                                         country_dropdown,
-                                         html.Hr(className="my-2"),
-                                         graph,
-                                         html.Div(className='jumbotron', id='country-summary'),
-                                               
-                                         ])
-                          )
-footer_col1 =  [html.Hr(className="my-2"),
-                html.Small(children=[   "Data Source Link: ",
-                                        html.A(html.Small("Dataset from Kaggle"),href=source_link)
-                                        ]),
-                html.Br(),        
+# CONTENT 2: BUBBLE PLOT OF GLOBAL DATA
+date = '04/03/2020' # Initially Selected Date
+color_settings = generate_hexcolors(df=df) # Generate color codes for each country bubble
+day0 = df['date'].unique()[0][:5]
+dayN = df['date'].unique()[-1][:5]
+
+bubble_slider = dbc.Card(children=[ html.Br(),
+                                    dcc.Slider(min=0, max=len(df['date'].unique()),
+                                    marks={ 0: day0,
+                                            len(df['date'].unique()): dayN  
+                                            },
+                                    id='day-slider')
+                                    ],
+                         className='mb-3'
+                         )
+
+bubble_graph = dcc.Graph(figure=load_bubbleplot_fig(df=df,date=date,color_settings=color_settings),id='selected-date')
+
+bubble_graph_container = dbc.Jumbotron(children=[   html.H4("COVID-19 Global Data: Bubble Plot"),
+                                                    html.P("The size of the bubble indicates the number of confirmed cases", className="display-7"),
+                                                    html.P("Use slider below the graph to see daily changes", className="display-7"),
+                                                    bubble_graph,
+                                                    bubble_slider,
+                                                    html.Small(f"Data on this graph is as of {df.iloc[-1]['date']}")
+                                                ])
+
+lower_content = dbc.Container(children=[line_graph_container,
+                                        bubble_graph_container
+                                        ])
+
+### FOOTER CONTENT ###
+# Setup Footer Content
+PLOTLY_LOGO = "https://images.plot.ly/logo/new-branding/plotly-logomark.png"
+
+footer_col1 =  [html.Hr(className="my-2"),       
                 html.Small(children=[   "Visualization was made using: ",
                                         html.A(html.Img(src=PLOTLY_LOGO, height="30px"),href="https://plot.ly")
                                         ]),
                 ]
 
-# Setup Footer Content
 footer_col2 =  [html.Hr(className="my-2"),
                 html.P(children=["Contact me:  ",
                 html.A(html.Img(src="https://image.flaticon.com/icons/svg/174/174848.svg",
@@ -102,35 +141,30 @@ footer_row = dbc.Row([dbc.Col(footer_col1),dbc.Col([html.Hr(className="my-2")]),
 
 footer = dbc.Container(footer_row)
 
-app.layout = dbc.Container(children=[navbar,jumbotron,footer])
+##### MAIN LAYOUT OF WHOLE DASHBOARD PAGE ##############
+app.layout = dbc.Container(children=[navbar,           #
+                                     upper_content,    #
+                                     lower_content,    #
+                                     footer            #
+                                     ])                #
+########################################################
 
+
+# CALLBACK SECTION #
+# Line Plot Callback
 @app.callback(Output(component_id='selected-country', component_property='figure'),
               [Input(component_id='country-selection', component_property='value')])
-def update_figure(selected_country):
-        country = selected_country
-        country_data = CountryCovidData(covid_df = covid,
-                                        country = country,
-                                        x_dates = covid['ObservationDate'].unique()
-                                        )
-        data_dict = country_data.get_dict()
-        fig = country_data.make_go_figure(data_dict=data_dict)
-        return fig
+def update_linefig(selected_country):
 
-@app.callback(Output(component_id='country-summary', component_property='children'),
-              [Input(component_id='country-selection', component_property='value')])
-def update_summary_stats(selected_country):
-        country = selected_country
-        country_data = CountryCovidData(covid_df = covid,
-                                        country = country,
-                                        x_dates = covid['ObservationDate'].unique()
-                                        )
-        data_dict = country_data.get_dict()
-        latest_stats = country_data.get_latest_summary(data_dict = data_dict)
-        return [html.H6(f"Summary Statistics as of {latest_stats['date']} from {latest_stats['country']}", className="display-5"),
-                html.Hr(className="my-2"),
-                html.P(f"Total Confirmed Cases: {latest_stats['confirmed']}"),
-                html.P(f"Death Toll: {latest_stats['deaths']} ,  {latest_stats['death_rate']} of confirmed cases"),
-                html.P(f"Recovered: {latest_stats['recovered']} ,  {latest_stats['recovery_rate']} of confirmed cases")]
+    return load_lineplot_fig(df=df,country=selected_country)
 
+# Bubble Plot Callback
+@app.callback(Output(component_id='selected-date', component_property='figure'),
+              [Input(component_id='day-slider', component_property='value')])
+def update_bubblefig(date_index):
+    date = df['date'].unique()[date_index]
+    return load_bubbleplot_fig(df=df,date=date,color_settings=color_settings)
+
+# APP TRIGGER #
 if __name__ == '__main__':
     app.run_server()
