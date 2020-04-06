@@ -84,3 +84,20 @@ def get_global_data():
 
     return df
 
+def _top20_summary_desc(date):
+    return f"Top 20 Countries as of {date} based on number of confirmed cases"
+
+def get_top20_summarydf(df,date):
+    df_bydate = df[df['date'] == date].copy()
+    df_bydate = df_bydate[df_bydate['country'] != 'Others'] # Exlude the 'Others'
+    df_top20 = df_bydate.nlargest(20,'confirmed')
+    df_top20.reset_index(inplace=True)
+    df_top20.drop(columns=['index','date'],inplace=True)
+    df_top20.index = [ i+1 for i in range(20)]
+
+    return df_top20
+
+#date = '04/05/2020'
+#df = pd.read_csv('datasets/revised_covid_19_data.csv')
+#sub_df = get_top20_summarydf(df,date)
+#print(sub_df.loc[1])

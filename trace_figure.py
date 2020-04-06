@@ -4,10 +4,19 @@ import random
 from datetime import datetime
 from get_data import get_global_data
 
+
 ### GENERATE HEXCOLOR FUNCTION###
-def generate_hexcolors(df):
+def generate_hexcolors(counts=10):
+    '''
+    Generates a list of colors meant to be assigned for countries.
+    Takes only one argument:
+    counts -    int, the number of colors you need to generate that
+                should also be equal to the number of unique countries
+                from the dataframe.
+    '''
+    random.seed(1)
     rgb = lambda: f"rgb({random.randint(140,255)},{random.randint(140,255)},{random.randint(140,255)})"
-    return [rgb() for _ in range(len(df['country'].unique()))]
+    return [rgb() for _ in range(counts)]
 
 def load_lineplot_fig(df,country):
     '''
@@ -45,6 +54,9 @@ def load_lineplot_fig(df,country):
 
 def load_bubbleplot_fig(df,date,color_settings):
     df_bydate = df[df['date'] == date].copy()
+    df_bydate = df_bydate[df_bydate['country'] != 'Others'] # Exlude the 'Others'
+    # Filter only top 10 countries based on confirmed cases
+    df_bydate = df_bydate.nlargest(10,'confirmed')
 
     # Set X values as recovery rate in percentage
     x_vals = round(df_bydate['recovered'] / df_bydate['confirmed'],4)
@@ -70,7 +82,7 @@ def load_bubbleplot_fig(df,date,color_settings):
                         xaxis_tickformat = '%',
                         yaxis = dict(   title = 'Death Counts',
                                         tickmode = 'array',
-                                        tickvals = [0, 5000, 10000, 15000, 20000, 25000, 30000, 35000]
+                                        tickvals = [0, 500, 1000, 5000, 10000, 15000, 20000, 25000]
                                         ),
                         hovermode='x',
                         )
