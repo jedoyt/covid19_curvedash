@@ -215,6 +215,8 @@ date,country,confirmed,deaths,recovered
 01/22/2020,Burundi,0,0,0
 01/22/2020,Sierra Leone,0,0,0
 01/22/2020,Malawi,0,0,0
+01/22/2020,South Sudan,0,0,0
+01/22/2020,Western Sahara,0,0,0
 01/23/2020,Hong Kong,2,0,0
 01/23/2020,Japan,1,0,0
 01/23/2020,Macau,2,0,0
@@ -431,6 +433,8 @@ date,country,confirmed,deaths,recovered
 01/23/2020,Burundi,0,0,0
 01/23/2020,Sierra Leone,0,0,0
 01/23/2020,Malawi,0,0,0
+01/23/2020,South Sudan,0,0,0
+01/23/2020,Western Sahara,0,0,0
 01/24/2020,Hong Kong,2,0,0
 01/24/2020,Japan,2,0,0
 01/24/2020,Macau,2,0,0
@@ -647,6 +651,8 @@ date,country,confirmed,deaths,recovered
 01/24/2020,Burundi,0,0,0
 01/24/2020,Sierra Leone,0,0,0
 01/24/2020,Malawi,0,0,0
+01/24/2020,South Sudan,0,0,0
+01/24/2020,Western Sahara,0,0,0
 01/25/2020,Hong Kong,5,0,0
 01/25/2020,Japan,2,0,0
 01/25/2020,Macau,2,0,0
@@ -863,6 +869,8 @@ date,country,confirmed,deaths,recovered
 01/25/2020,Burundi,0,0,0
 01/25/2020,Sierra Leone,0,0,0
 01/25/2020,Malawi,0,0,0
+01/25/2020,South Sudan,0,0,0
+01/25/2020,Western Sahara,0,0,0
 01/26/2020,Hong Kong,8,0,0
 01/26/2020,Japan,4,0,1
 01/26/2020,Macau,5,0,0
@@ -1079,6 +1087,8 @@ date,country,confirmed,deaths,recovered
 01/26/2020,Burundi,0,0,0
 01/26/2020,Sierra Leone,0,0,0
 01/26/2020,Malawi,0,0,0
+01/26/2020,South Sudan,0,0,0
+01/26/2020,Western Sahara,0,0,0
 01/27/2020,Hong Kong,8,0,0
 01/27/2020,Japan,4,0,1
 01/27/2020,Macau,6,0,0
@@ -1295,6 +1305,8 @@ date,country,confirmed,deaths,recovered
 01/27/2020,Burundi,0,0,0
 01/27/2020,Sierra Leone,0,0,0
 01/27/2020,Malawi,0,0,0
+01/27/2020,South Sudan,0,0,0
+01/27/2020,Western Sahara,0,0,0
 01/28/2020,Hong Kong,8,0,0
 01/28/2020,Japan,7,0,1
 01/28/2020,Macau,7,0,0
@@ -1511,6 +1523,8 @@ date,country,confirmed,deaths,recovered
 01/28/2020,Burundi,0,0,0
 01/28/2020,Sierra Leone,0,0,0
 01/28/2020,Malawi,0,0,0
+01/28/2020,South Sudan,0,0,0
+01/28/2020,Western Sahara,0,0,0
 01/29/2020,Hong Kong,10,0,0
 01/29/2020,Japan,7,0,1
 01/29/2020,Macau,7,0,0
@@ -1727,6 +1741,8 @@ date,country,confirmed,deaths,recovered
 01/29/2020,Burundi,0,0,0
 01/29/2020,Sierra Leone,0,0,0
 01/29/2020,Malawi,0,0,0
+01/29/2020,South Sudan,0,0,0
+01/29/2020,Western Sahara,0,0,0
 01/30/2020,Hong Kong,10,0,0
 01/30/2020,Japan,11,0,1
 01/30/2020,Macau,7,0,0
@@ -1943,6 +1959,8 @@ date,country,confirmed,deaths,recovered
 01/30/2020,Burundi,0,0,0
 01/30/2020,Sierra Leone,0,0,0
 01/30/2020,Malawi,0,0,0
+01/30/2020,South Sudan,0,0,0
+01/30/2020,Western Sahara,0,0,0
 01/31/2020,Hong Kong,12,0,0
 01/31/2020,Japan,15,0,1
 01/31/2020,Macau,7,0,0
@@ -2159,6 +2177,8 @@ date,country,confirmed,deaths,recovered
 01/31/2020,Burundi,0,0,0
 01/31/2020,Sierra Leone,0,0,0
 01/31/2020,Malawi,0,0,0
+01/31/2020,South Sudan,0,0,0
+01/31/2020,Western Sahara,0,0,0
 02/01/2020,Hong Kong,13,0,0
 02/01/2020,Japan,20,0,1
 02/01/2020,Macau,7,0,0
@@ -2375,6 +2395,8 @@ date,country,confirmed,deaths,recovered
 02/01/2020,Burundi,0,0,0
 02/01/2020,Sierra Leone,0,0,0
 02/01/2020,Malawi,0,0,0
+02/01/2020,South Sudan,0,0,0
+02/01/2020,Western Sahara,0,0,0
 02/02/2020,Hong Kong,15,0,0
 02/02/2020,Japan,20,0,1
 02/02/2020,Macau,8,0,0
@@ -2591,6 +2613,8 @@ date,country,confirmed,deaths,recovered
 02/02/2020,Burundi,0,0,0
 02/02/2020,Sierra Leone,0,0,0
 02/02/2020,Malawi,0,0,0
+02/02/2020,South Sudan,0,0,0
+02/02/2020,Western Sahara,0,0,0
 02/03/2020,Hong Kong,15,0,0
 02/03/2020,Japan,20,0,1
 02/03/2020,Macau,8,0,0
@@ -2807,6 +2831,8 @@ date,country,confirmed,deaths,recovered
 02/03/2020,Burundi,0,0,0
 02/03/2020,Sierra Leone,0,0,0
 02/03/2020,Malawi,0,0,0
+02/03/2020,South Sudan,0,0,0
+02/03/2020,Western Sahara,0,0,0
 02/04/2020,Hong Kong,17,1,0
 02/04/2020,Japan,22,0,1
 02/04/2020,Macau,10,0,0
@@ -3023,6 +3049,8 @@ date,country,confirmed,deaths,recovered
 02/04/2020,Burundi,0,0,0
 02/04/2020,Sierra Leone,0,0,0
 02/04/2020,Malawi,0,0,0
+02/04/2020,South Sudan,0,0,0
+02/04/2020,Western Sahara,0,0,0
 02/05/2020,Hong Kong,21,1,0
 02/05/2020,Japan,22,0,1
 02/05/2020,Macau,10,0,0
@@ -3239,6 +3267,8 @@ date,country,confirmed,deaths,recovered
 02/05/2020,Burundi,0,0,0
 02/05/2020,Sierra Leone,0,0,0
 02/05/2020,Malawi,0,0,0
+02/05/2020,South Sudan,0,0,0
+02/05/2020,Western Sahara,0,0,0
 02/06/2020,Hong Kong,24,1,0
 02/06/2020,Japan,45,0,1
 02/06/2020,Macau,10,0,1
@@ -3455,6 +3485,8 @@ date,country,confirmed,deaths,recovered
 02/06/2020,Burundi,0,0,0
 02/06/2020,Sierra Leone,0,0,0
 02/06/2020,Malawi,0,0,0
+02/06/2020,South Sudan,0,0,0
+02/06/2020,Western Sahara,0,0,0
 02/07/2020,Hong Kong,25,1,0
 02/07/2020,Japan,25,0,1
 02/07/2020,Macau,10,0,1
@@ -3671,6 +3703,8 @@ date,country,confirmed,deaths,recovered
 02/07/2020,Burundi,0,0,0
 02/07/2020,Sierra Leone,0,0,0
 02/07/2020,Malawi,0,0,0
+02/07/2020,South Sudan,0,0,0
+02/07/2020,Western Sahara,0,0,0
 02/08/2020,Hong Kong,26,1,0
 02/08/2020,Japan,25,0,1
 02/08/2020,Macau,10,0,1
@@ -3887,6 +3921,8 @@ date,country,confirmed,deaths,recovered
 02/08/2020,Burundi,0,0,0
 02/08/2020,Sierra Leone,0,0,0
 02/08/2020,Malawi,0,0,0
+02/08/2020,South Sudan,0,0,0
+02/08/2020,Western Sahara,0,0,0
 02/09/2020,Hong Kong,29,1,0
 02/09/2020,Japan,26,0,1
 02/09/2020,Macau,10,0,1
@@ -4103,6 +4139,8 @@ date,country,confirmed,deaths,recovered
 02/09/2020,Burundi,0,0,0
 02/09/2020,Sierra Leone,0,0,0
 02/09/2020,Malawi,0,0,0
+02/09/2020,South Sudan,0,0,0
+02/09/2020,Western Sahara,0,0,0
 02/10/2020,Hong Kong,38,1,0
 02/10/2020,Japan,26,0,4
 02/10/2020,Macau,10,0,1
@@ -4319,6 +4357,8 @@ date,country,confirmed,deaths,recovered
 02/10/2020,Burundi,0,0,0
 02/10/2020,Sierra Leone,0,0,0
 02/10/2020,Malawi,0,0,0
+02/10/2020,South Sudan,0,0,0
+02/10/2020,Western Sahara,0,0,0
 02/11/2020,Hong Kong,49,1,0
 02/11/2020,Japan,26,0,9
 02/11/2020,Macau,10,0,1
@@ -4535,6 +4575,8 @@ date,country,confirmed,deaths,recovered
 02/11/2020,Burundi,0,0,0
 02/11/2020,Sierra Leone,0,0,0
 02/11/2020,Malawi,0,0,0
+02/11/2020,South Sudan,0,0,0
+02/11/2020,Western Sahara,0,0,0
 02/12/2020,Hong Kong,50,1,1
 02/12/2020,Japan,28,0,9
 02/12/2020,Macau,10,0,2
@@ -4751,6 +4793,8 @@ date,country,confirmed,deaths,recovered
 02/12/2020,Burundi,0,0,0
 02/12/2020,Sierra Leone,0,0,0
 02/12/2020,Malawi,0,0,0
+02/12/2020,South Sudan,0,0,0
+02/12/2020,Western Sahara,0,0,0
 02/13/2020,Hong Kong,53,1,1
 02/13/2020,Japan,28,1,9
 02/13/2020,Macau,10,0,3
@@ -4967,6 +5011,8 @@ date,country,confirmed,deaths,recovered
 02/13/2020,Burundi,0,0,0
 02/13/2020,Sierra Leone,0,0,0
 02/13/2020,Malawi,0,0,0
+02/13/2020,South Sudan,0,0,0
+02/13/2020,Western Sahara,0,0,0
 02/14/2020,Hong Kong,56,1,1
 02/14/2020,Japan,29,1,9
 02/14/2020,Macau,10,0,3
@@ -5183,6 +5229,8 @@ date,country,confirmed,deaths,recovered
 02/14/2020,Burundi,0,0,0
 02/14/2020,Sierra Leone,0,0,0
 02/14/2020,Malawi,0,0,0
+02/14/2020,South Sudan,0,0,0
+02/14/2020,Western Sahara,0,0,0
 02/15/2020,Hong Kong,56,1,1
 02/15/2020,Japan,43,1,12
 02/15/2020,Macau,10,0,3
@@ -5399,6 +5447,8 @@ date,country,confirmed,deaths,recovered
 02/15/2020,Burundi,0,0,0
 02/15/2020,Sierra Leone,0,0,0
 02/15/2020,Malawi,0,0,0
+02/15/2020,South Sudan,0,0,0
+02/15/2020,Western Sahara,0,0,0
 02/16/2020,Hong Kong,57,1,2
 02/16/2020,Japan,59,1,12
 02/16/2020,Macau,10,0,5
@@ -5615,6 +5665,8 @@ date,country,confirmed,deaths,recovered
 02/16/2020,Burundi,0,0,0
 02/16/2020,Sierra Leone,0,0,0
 02/16/2020,Malawi,0,0,0
+02/16/2020,South Sudan,0,0,0
+02/16/2020,Western Sahara,0,0,0
 02/17/2020,Hong Kong,60,1,2
 02/17/2020,Japan,66,1,12
 02/17/2020,Macau,10,0,5
@@ -5831,6 +5883,8 @@ date,country,confirmed,deaths,recovered
 02/17/2020,Burundi,0,0,0
 02/17/2020,Sierra Leone,0,0,0
 02/17/2020,Malawi,0,0,0
+02/17/2020,South Sudan,0,0,0
+02/17/2020,Western Sahara,0,0,0
 02/18/2020,Hong Kong,62,1,2
 02/18/2020,Japan,74,1,13
 02/18/2020,Macau,10,0,5
@@ -6047,6 +6101,8 @@ date,country,confirmed,deaths,recovered
 02/18/2020,Burundi,0,0,0
 02/18/2020,Sierra Leone,0,0,0
 02/18/2020,Malawi,0,0,0
+02/18/2020,South Sudan,0,0,0
+02/18/2020,Western Sahara,0,0,0
 02/19/2020,Hong Kong,63,2,5
 02/19/2020,Japan,84,1,18
 02/19/2020,Macau,10,0,5
@@ -6263,6 +6319,8 @@ date,country,confirmed,deaths,recovered
 02/19/2020,Burundi,0,0,0
 02/19/2020,Sierra Leone,0,0,0
 02/19/2020,Malawi,0,0,0
+02/19/2020,South Sudan,0,0,0
+02/19/2020,Western Sahara,0,0,0
 02/20/2020,Hong Kong,68,2,6
 02/20/2020,Japan,94,1,18
 02/20/2020,Macau,10,0,6
@@ -6479,6 +6537,8 @@ date,country,confirmed,deaths,recovered
 02/20/2020,Burundi,0,0,0
 02/20/2020,Sierra Leone,0,0,0
 02/20/2020,Malawi,0,0,0
+02/20/2020,South Sudan,0,0,0
+02/20/2020,Western Sahara,0,0,0
 02/21/2020,Hong Kong,68,2,5
 02/21/2020,Japan,105,1,22
 02/21/2020,Macau,10,0,6
@@ -6695,6 +6755,8 @@ date,country,confirmed,deaths,recovered
 02/21/2020,Burundi,0,0,0
 02/21/2020,Sierra Leone,0,0,0
 02/21/2020,Malawi,0,0,0
+02/21/2020,South Sudan,0,0,0
+02/21/2020,Western Sahara,0,0,0
 02/22/2020,Hong Kong,69,2,6
 02/22/2020,Japan,122,1,22
 02/22/2020,Macau,10,0,6
@@ -6911,6 +6973,8 @@ date,country,confirmed,deaths,recovered
 02/22/2020,Burundi,0,0,0
 02/22/2020,Sierra Leone,0,0,0
 02/22/2020,Malawi,0,0,0
+02/22/2020,South Sudan,0,0,0
+02/22/2020,Western Sahara,0,0,0
 02/23/2020,Hong Kong,74,2,11
 02/23/2020,Japan,147,1,22
 02/23/2020,Macau,10,0,6
@@ -7127,6 +7191,8 @@ date,country,confirmed,deaths,recovered
 02/23/2020,Burundi,0,0,0
 02/23/2020,Sierra Leone,0,0,0
 02/23/2020,Malawi,0,0,0
+02/23/2020,South Sudan,0,0,0
+02/23/2020,Western Sahara,0,0,0
 02/24/2020,Hong Kong,79,2,19
 02/24/2020,Japan,159,1,22
 02/24/2020,Macau,10,0,6
@@ -7343,6 +7409,8 @@ date,country,confirmed,deaths,recovered
 02/24/2020,Burundi,0,0,0
 02/24/2020,Sierra Leone,0,0,0
 02/24/2020,Malawi,0,0,0
+02/24/2020,South Sudan,0,0,0
+02/24/2020,Western Sahara,0,0,0
 02/25/2020,Hong Kong,84,2,19
 02/25/2020,Japan,170,1,22
 02/25/2020,Macau,10,0,7
@@ -7559,6 +7627,8 @@ date,country,confirmed,deaths,recovered
 02/25/2020,Burundi,0,0,0
 02/25/2020,Sierra Leone,0,0,0
 02/25/2020,Malawi,0,0,0
+02/25/2020,South Sudan,0,0,0
+02/25/2020,Western Sahara,0,0,0
 02/26/2020,Hong Kong,91,2,24
 02/26/2020,Japan,189,2,22
 02/26/2020,Macau,10,0,7
@@ -7775,6 +7845,8 @@ date,country,confirmed,deaths,recovered
 02/26/2020,Burundi,0,0,0
 02/26/2020,Sierra Leone,0,0,0
 02/26/2020,Malawi,0,0,0
+02/26/2020,South Sudan,0,0,0
+02/26/2020,Western Sahara,0,0,0
 02/27/2020,Hong Kong,92,2,24
 02/27/2020,Japan,214,4,22
 02/27/2020,Macau,10,0,8
@@ -7991,6 +8063,8 @@ date,country,confirmed,deaths,recovered
 02/27/2020,Burundi,0,0,0
 02/27/2020,Sierra Leone,0,0,0
 02/27/2020,Malawi,0,0,0
+02/27/2020,South Sudan,0,0,0
+02/27/2020,Western Sahara,0,0,0
 02/28/2020,Hong Kong,94,2,30
 02/28/2020,Japan,228,4,22
 02/28/2020,Macau,10,0,8
@@ -8207,6 +8281,8 @@ date,country,confirmed,deaths,recovered
 02/28/2020,Burundi,0,0,0
 02/28/2020,Sierra Leone,0,0,0
 02/28/2020,Malawi,0,0,0
+02/28/2020,South Sudan,0,0,0
+02/28/2020,Western Sahara,0,0,0
 02/29/2020,Hong Kong,95,2,33
 02/29/2020,Japan,241,5,32
 02/29/2020,Macau,10,0,8
@@ -8423,6 +8499,8 @@ date,country,confirmed,deaths,recovered
 02/29/2020,Burundi,0,0,0
 02/29/2020,Sierra Leone,0,0,0
 02/29/2020,Malawi,0,0,0
+02/29/2020,South Sudan,0,0,0
+02/29/2020,Western Sahara,0,0,0
 03/01/2020,Hong Kong,96,2,36
 03/01/2020,Japan,256,6,32
 03/01/2020,Macau,10,0,8
@@ -8639,6 +8717,8 @@ date,country,confirmed,deaths,recovered
 03/01/2020,Burundi,0,0,0
 03/01/2020,Sierra Leone,0,0,0
 03/01/2020,Malawi,0,0,0
+03/01/2020,South Sudan,0,0,0
+03/01/2020,Western Sahara,0,0,0
 03/02/2020,Hong Kong,100,2,36
 03/02/2020,Japan,274,6,32
 03/02/2020,Macau,10,0,8
@@ -8855,6 +8935,8 @@ date,country,confirmed,deaths,recovered
 03/02/2020,Burundi,0,0,0
 03/02/2020,Sierra Leone,0,0,0
 03/02/2020,Malawi,0,0,0
+03/02/2020,South Sudan,0,0,0
+03/02/2020,Western Sahara,0,0,0
 03/03/2020,Hong Kong,100,2,37
 03/03/2020,Japan,293,6,43
 03/03/2020,Macau,10,0,9
@@ -9071,6 +9153,8 @@ date,country,confirmed,deaths,recovered
 03/03/2020,Burundi,0,0,0
 03/03/2020,Sierra Leone,0,0,0
 03/03/2020,Malawi,0,0,0
+03/03/2020,South Sudan,0,0,0
+03/03/2020,Western Sahara,0,0,0
 03/04/2020,Hong Kong,105,2,37
 03/04/2020,Japan,331,6,43
 03/04/2020,Macau,10,0,9
@@ -9287,6 +9371,8 @@ date,country,confirmed,deaths,recovered
 03/04/2020,Burundi,0,0,0
 03/04/2020,Sierra Leone,0,0,0
 03/04/2020,Malawi,0,0,0
+03/04/2020,South Sudan,0,0,0
+03/04/2020,Western Sahara,0,0,0
 03/05/2020,Hong Kong,105,2,43
 03/05/2020,Japan,360,6,43
 03/05/2020,Macau,10,0,9
@@ -9503,6 +9589,8 @@ date,country,confirmed,deaths,recovered
 03/05/2020,Burundi,0,0,0
 03/05/2020,Sierra Leone,0,0,0
 03/05/2020,Malawi,0,0,0
+03/05/2020,South Sudan,0,0,0
+03/05/2020,Western Sahara,0,0,0
 03/06/2020,Hong Kong,107,2,46
 03/06/2020,Japan,420,6,46
 03/06/2020,Macau,10,0,10
@@ -9719,6 +9807,8 @@ date,country,confirmed,deaths,recovered
 03/06/2020,Burundi,0,0,0
 03/06/2020,Sierra Leone,0,0,0
 03/06/2020,Malawi,0,0,0
+03/06/2020,South Sudan,0,0,0
+03/06/2020,Western Sahara,0,0,0
 03/07/2020,Hong Kong,108,2,51
 03/07/2020,Japan,461,6,76
 03/07/2020,Macau,10,0,10
@@ -9935,6 +10025,8 @@ date,country,confirmed,deaths,recovered
 03/07/2020,Burundi,0,0,0
 03/07/2020,Sierra Leone,0,0,0
 03/07/2020,Malawi,0,0,0
+03/07/2020,South Sudan,0,0,0
+03/07/2020,Western Sahara,0,0,0
 03/08/2020,Hong Kong,114,3,58
 03/08/2020,Japan,502,6,76
 03/08/2020,Macau,10,0,10
@@ -10151,6 +10243,8 @@ date,country,confirmed,deaths,recovered
 03/08/2020,Burundi,0,0,0
 03/08/2020,Sierra Leone,0,0,0
 03/08/2020,Malawi,0,0,0
+03/08/2020,South Sudan,0,0,0
+03/08/2020,Western Sahara,0,0,0
 03/09/2020,Hong Kong,115,3,59
 03/09/2020,Japan,511,17,76
 03/09/2020,Macau,10,0,10
@@ -10367,6 +10461,8 @@ date,country,confirmed,deaths,recovered
 03/09/2020,Burundi,0,0,0
 03/09/2020,Sierra Leone,0,0,0
 03/09/2020,Malawi,0,0,0
+03/09/2020,South Sudan,0,0,0
+03/09/2020,Western Sahara,0,0,0
 03/10/2020,Hong Kong,120,3,65
 03/10/2020,Japan,581,10,101
 03/10/2020,Macau,10,0,10
@@ -10583,6 +10679,8 @@ date,country,confirmed,deaths,recovered
 03/10/2020,Burundi,0,0,0
 03/10/2020,Sierra Leone,0,0,0
 03/10/2020,Malawi,0,0,0
+03/10/2020,South Sudan,0,0,0
+03/10/2020,Western Sahara,0,0,0
 03/11/2020,Hong Kong,126,3,65
 03/11/2020,Japan,639,15,118
 03/11/2020,Macau,10,0,10
@@ -10799,6 +10897,8 @@ date,country,confirmed,deaths,recovered
 03/11/2020,Burundi,0,0,0
 03/11/2020,Sierra Leone,0,0,0
 03/11/2020,Malawi,0,0,0
+03/11/2020,South Sudan,0,0,0
+03/11/2020,Western Sahara,0,0,0
 03/12/2020,Hong Kong,129,3,67
 03/12/2020,Japan,639,16,118
 03/12/2020,Macau,10,0,10
@@ -11015,6 +11115,8 @@ date,country,confirmed,deaths,recovered
 03/12/2020,Burundi,0,0,0
 03/12/2020,Sierra Leone,0,0,0
 03/12/2020,Malawi,0,0,0
+03/12/2020,South Sudan,0,0,0
+03/12/2020,Western Sahara,0,0,0
 03/13/2020,Hong Kong,134,4,77
 03/13/2020,Japan,701,19,118
 03/13/2020,Macau,10,0,10
@@ -11231,6 +11333,8 @@ date,country,confirmed,deaths,recovered
 03/13/2020,Burundi,0,0,0
 03/13/2020,Sierra Leone,0,0,0
 03/13/2020,Malawi,0,0,0
+03/13/2020,South Sudan,0,0,0
+03/13/2020,Western Sahara,0,0,0
 03/14/2020,Hong Kong,140,4,78
 03/14/2020,Japan,773,22,118
 03/14/2020,Macau,10,0,10
@@ -11447,6 +11551,8 @@ date,country,confirmed,deaths,recovered
 03/14/2020,Burundi,0,0,0
 03/14/2020,Sierra Leone,0,0,0
 03/14/2020,Malawi,0,0,0
+03/14/2020,South Sudan,0,0,0
+03/14/2020,Western Sahara,0,0,0
 03/15/2020,Hong Kong,145,4,81
 03/15/2020,Japan,839,22,118
 03/15/2020,Macau,10,0,10
@@ -11663,6 +11769,8 @@ date,country,confirmed,deaths,recovered
 03/15/2020,Burundi,0,0,0
 03/15/2020,Sierra Leone,0,0,0
 03/15/2020,Malawi,0,0,0
+03/15/2020,South Sudan,0,0,0
+03/15/2020,Western Sahara,0,0,0
 03/16/2020,Hong Kong,155,4,84
 03/16/2020,Japan,825,27,144
 03/16/2020,Macau,11,0,10
@@ -11879,6 +11987,8 @@ date,country,confirmed,deaths,recovered
 03/16/2020,Burundi,0,0,0
 03/16/2020,Sierra Leone,0,0,0
 03/16/2020,Malawi,0,0,0
+03/16/2020,South Sudan,0,0,0
+03/16/2020,Western Sahara,0,0,0
 03/17/2020,Hong Kong,162,4,88
 03/17/2020,Japan,878,29,144
 03/17/2020,Macau,12,0,10
@@ -12095,6 +12205,8 @@ date,country,confirmed,deaths,recovered
 03/17/2020,Burundi,0,0,0
 03/17/2020,Sierra Leone,0,0,0
 03/17/2020,Malawi,0,0,0
+03/17/2020,South Sudan,0,0,0
+03/17/2020,Western Sahara,0,0,0
 03/18/2020,Hong Kong,181,4,92
 03/18/2020,Japan,889,29,144
 03/18/2020,Macau,15,0,10
@@ -12311,6 +12423,8 @@ date,country,confirmed,deaths,recovered
 03/18/2020,Burundi,0,0,0
 03/18/2020,Sierra Leone,0,0,0
 03/18/2020,Malawi,0,0,0
+03/18/2020,South Sudan,0,0,0
+03/18/2020,Western Sahara,0,0,0
 03/19/2020,Hong Kong,208,4,95
 03/19/2020,Japan,924,29,150
 03/19/2020,Macau,17,0,10
@@ -12527,6 +12641,8 @@ date,country,confirmed,deaths,recovered
 03/19/2020,Burundi,0,0,0
 03/19/2020,Sierra Leone,0,0,0
 03/19/2020,Malawi,0,0,0
+03/19/2020,South Sudan,0,0,0
+03/19/2020,Western Sahara,0,0,0
 03/20/2020,Hong Kong,256,4,98
 03/20/2020,Japan,963,33,191
 03/20/2020,Macau,17,0,10
@@ -12743,6 +12859,8 @@ date,country,confirmed,deaths,recovered
 03/20/2020,Burundi,0,0,0
 03/20/2020,Sierra Leone,0,0,0
 03/20/2020,Malawi,0,0,0
+03/20/2020,South Sudan,0,0,0
+03/20/2020,Western Sahara,0,0,0
 03/21/2020,Hong Kong,273,4,98
 03/21/2020,Japan,1007,35,232
 03/21/2020,Macau,18,0,10
@@ -12959,6 +13077,8 @@ date,country,confirmed,deaths,recovered
 03/21/2020,Burundi,0,0,0
 03/21/2020,Sierra Leone,0,0,0
 03/21/2020,Malawi,0,0,0
+03/21/2020,South Sudan,0,0,0
+03/21/2020,Western Sahara,0,0,0
 03/22/2020,Hong Kong,317,4,100
 03/22/2020,Japan,1086,36,235
 03/22/2020,Macau,20,0,10
@@ -13175,6 +13295,8 @@ date,country,confirmed,deaths,recovered
 03/22/2020,Burundi,0,0,0
 03/22/2020,Sierra Leone,0,0,0
 03/22/2020,Malawi,0,0,0
+03/22/2020,South Sudan,0,0,0
+03/22/2020,Western Sahara,0,0,0
 03/23/2020,Hong Kong,356,4,100
 03/23/2020,Japan,1128,42,235
 03/23/2020,Macau,24,0,10
@@ -13391,6 +13513,8 @@ date,country,confirmed,deaths,recovered
 03/23/2020,Burundi,0,0,0
 03/23/2020,Sierra Leone,0,0,0
 03/23/2020,Malawi,0,0,0
+03/23/2020,South Sudan,0,0,0
+03/23/2020,Western Sahara,0,0,0
 03/24/2020,Hong Kong,386,4,101
 03/24/2020,Japan,1193,43,285
 03/24/2020,Macau,25,0,10
@@ -13607,6 +13731,8 @@ date,country,confirmed,deaths,recovered
 03/24/2020,Burundi,0,0,0
 03/24/2020,Sierra Leone,0,0,0
 03/24/2020,Malawi,0,0,0
+03/24/2020,South Sudan,0,0,0
+03/24/2020,Western Sahara,0,0,0
 03/25/2020,Hong Kong,410,4,102
 03/25/2020,Japan,1307,45,310
 03/25/2020,Macau,30,0,10
@@ -13823,6 +13949,8 @@ date,country,confirmed,deaths,recovered
 03/25/2020,Burundi,0,0,0
 03/25/2020,Sierra Leone,0,0,0
 03/25/2020,Malawi,0,0,0
+03/25/2020,South Sudan,0,0,0
+03/25/2020,Western Sahara,0,0,0
 03/26/2020,Hong Kong,453,4,110
 03/26/2020,Japan,1387,47,359
 03/26/2020,Macau,31,0,10
@@ -14039,6 +14167,8 @@ date,country,confirmed,deaths,recovered
 03/26/2020,Burundi,0,0,0
 03/26/2020,Sierra Leone,0,0,0
 03/26/2020,Malawi,0,0,0
+03/26/2020,South Sudan,0,0,0
+03/26/2020,Western Sahara,0,0,0
 03/27/2020,Hong Kong,519,4,110
 03/27/2020,Japan,1468,49,372
 03/27/2020,Macau,33,0,10
@@ -14255,6 +14385,8 @@ date,country,confirmed,deaths,recovered
 03/27/2020,Burundi,0,0,0
 03/27/2020,Sierra Leone,0,0,0
 03/27/2020,Malawi,0,0,0
+03/27/2020,South Sudan,0,0,0
+03/27/2020,Western Sahara,0,0,0
 03/28/2020,Hong Kong,561,4,112
 03/28/2020,Japan,1693,52,404
 03/28/2020,Macau,37,0,10
@@ -14471,6 +14603,8 @@ date,country,confirmed,deaths,recovered
 03/28/2020,Burundi,0,0,0
 03/28/2020,Sierra Leone,0,0,0
 03/28/2020,Malawi,0,0,0
+03/28/2020,South Sudan,0,0,0
+03/28/2020,Western Sahara,0,0,0
 03/29/2020,Hong Kong,641,4,112
 03/29/2020,Japan,1866,54,424
 03/29/2020,Macau,37,0,10
@@ -14687,6 +14821,8 @@ date,country,confirmed,deaths,recovered
 03/29/2020,Burundi,0,0,0
 03/29/2020,Sierra Leone,0,0,0
 03/29/2020,Malawi,0,0,0
+03/29/2020,South Sudan,0,0,0
+03/29/2020,Western Sahara,0,0,0
 03/30/2020,Hong Kong,682,4,123
 03/30/2020,Japan,1866,54,424
 03/30/2020,Macau,38,0,10
@@ -14903,6 +15039,8 @@ date,country,confirmed,deaths,recovered
 03/30/2020,Burundi,0,0,0
 03/30/2020,Sierra Leone,0,0,0
 03/30/2020,Malawi,0,0,0
+03/30/2020,South Sudan,0,0,0
+03/30/2020,Western Sahara,0,0,0
 03/31/2020,Hong Kong,714,4,128
 03/31/2020,Japan,1953,56,424
 03/31/2020,Macau,41,0,10
@@ -15119,6 +15257,8 @@ date,country,confirmed,deaths,recovered
 03/31/2020,Burundi,2,0,0
 03/31/2020,Sierra Leone,1,0,0
 03/31/2020,Malawi,0,0,0
+03/31/2020,South Sudan,0,0,0
+03/31/2020,Western Sahara,0,0,0
 04/01/2020,Hong Kong,765,4,147
 04/01/2020,Japan,2178,57,472
 04/01/2020,Macau,41,0,10
@@ -15335,6 +15475,8 @@ date,country,confirmed,deaths,recovered
 04/01/2020,Burundi,2,0,0
 04/01/2020,Sierra Leone,2,0,0
 04/01/2020,Malawi,0,0,0
+04/01/2020,South Sudan,0,0,0
+04/01/2020,Western Sahara,0,0,0
 04/02/2020,Hong Kong,802,4,147
 04/02/2020,Japan,2495,62,472
 04/02/2020,Macau,41,0,10
@@ -15551,6 +15693,8 @@ date,country,confirmed,deaths,recovered
 04/02/2020,Burundi,3,0,0
 04/02/2020,Sierra Leone,2,0,0
 04/02/2020,Malawi,3,0,0
+04/02/2020,South Sudan,0,0,0
+04/02/2020,Western Sahara,0,0,0
 04/03/2020,Hong Kong,845,4,173
 04/03/2020,Japan,2617,63,514
 04/03/2020,Macau,43,0,10
@@ -15767,3 +15911,441 @@ date,country,confirmed,deaths,recovered
 04/03/2020,Burundi,3,0,0
 04/03/2020,Sierra Leone,2,0,0
 04/03/2020,Malawi,3,0,0
+04/03/2020,South Sudan,0,0,0
+04/03/2020,Western Sahara,0,0,0
+04/04/2020,Hong Kong,862,4,173
+04/04/2020,Japan,3139,77,514
+04/04/2020,Macau,43,0,10
+04/04/2020,Mainland China,81638,3326,76763
+04/04/2020,South Korea,10156,177,6325
+04/04/2020,Taiwan,355,5,50
+04/04/2020,Thailand,2067,20,674
+04/04/2020,US,308850,8407,14652
+04/04/2020,Australia,5550,30,701
+04/04/2020,Brazil,10360,445,127
+04/04/2020,Colombia,1406,32,85
+04/04/2020,Malaysia,3483,57,915
+04/04/2020,Mexico,1688,60,633
+04/04/2020,Philippines,3094,144,57
+04/04/2020,Singapore,1189,6,297
+04/04/2020,Vietnam,240,0,90
+04/04/2020,France,90848,7574,15572
+04/04/2020,Nepal,9,0,1
+04/04/2020,Canada,12978,218,2577
+04/04/2020,Cambodia,114,0,50
+04/04/2020,Ivory Coast,245,1,25
+04/04/2020,Sri Lanka,166,5,27
+04/04/2020,Germany,96092,1444,26400
+04/04/2020,Finland,1882,25,300
+04/04/2020,United Arab Emirates,1505,10,125
+04/04/2020,India,3082,86,229
+04/04/2020,Italy,124632,15362,20996
+04/04/2020,Russia,4731,43,333
+04/04/2020,Sweden,6443,373,205
+04/04/2020,UK,42477,4320,215
+04/04/2020,Spain,126168,11947,34219
+04/04/2020,Belgium,18431,1283,3247
+04/04/2020,Others,0,0,0
+04/04/2020,Egypt,1070,71,241
+04/04/2020,Iran,55743,3452,19736
+04/04/2020,Israel,7851,44,427
+04/04/2020,Lebanon,520,17,54
+04/04/2020,Iraq,878,56,259
+04/04/2020,Afghanistan,299,7,10
+04/04/2020,Bahrain,688,4,423
+04/04/2020,Kuwait,479,1,93
+04/04/2020,Oman,277,2,61
+04/04/2020,Algeria,1251,130,90
+04/04/2020,Austria,11781,186,2507
+04/04/2020,Croatia,1126,12,119
+04/04/2020,Switzerland,20505,666,6415
+04/04/2020,Georgia,162,1,36
+04/04/2020,Greece,1673,68,78
+04/04/2020,North Macedonia,483,17,20
+04/04/2020,Norway,5550,62,32
+04/04/2020,Pakistan,2818,41,131
+04/04/2020,Romania,3613,146,329
+04/04/2020,Denmark,4269,161,1379
+04/04/2020,Estonia,1039,13,59
+04/04/2020,Netherlands,16727,1656,262
+04/04/2020,San Marino,259,32,27
+04/04/2020, Azerbaijan,0,0,0
+04/04/2020,Belarus,440,5,53
+04/04/2020,Iceland,1417,4,396
+04/04/2020,Lithuania,771,11,7
+04/04/2020,New Zealand,950,1,127
+04/04/2020,Nigeria,214,4,25
+04/04/2020,North Ireland,0,0,0
+04/04/2020,Ireland,4604,137,25
+04/04/2020,Luxembourg,2729,31,500
+04/04/2020,Monaco,66,1,3
+04/04/2020,Qatar,1325,3,109
+04/04/2020,Armenia,770,7,43
+04/04/2020,Azerbaijan,521,5,32
+04/04/2020,Czech Republic,4472,59,78
+04/04/2020,Dominican Republic,1488,68,16
+04/04/2020,Ecuador,3465,172,100
+04/04/2020,Andorra,466,17,21
+04/04/2020,Indonesia,2092,191,150
+04/04/2020,Latvia,509,1,1
+04/04/2020,Morocco,919,59,66
+04/04/2020,Portugal,10524,266,75
+04/04/2020,Saudi Arabia,2179,29,420
+04/04/2020,Senegal,219,2,72
+04/04/2020,Argentina,1451,43,279
+04/04/2020,Chile,4161,27,528
+04/04/2020,Jordan,323,5,74
+04/04/2020,Ukraine,1225,32,25
+04/04/2020,Faroe Islands,0,0,0
+04/04/2020,Gibraltar,0,0,0
+04/04/2020,Hungary,678,32,58
+04/04/2020,Liechtenstein,77,1,0
+04/04/2020,Poland,3627,79,116
+04/04/2020,Saint Barthelemy,0,0,0
+04/04/2020,Tunisia,553,18,5
+04/04/2020,Bosnia and Herzegovina,624,21,30
+04/04/2020,Palestine,0,0,0
+04/04/2020,Slovenia,977,22,79
+04/04/2020,South Africa,1585,9,95
+04/04/2020,Bhutan,5,0,2
+04/04/2020,Cameroon,555,9,17
+04/04/2020,Costa Rica,435,2,13
+04/04/2020,Peru,1746,73,914
+04/04/2020,Serbia,1624,44,0
+04/04/2020,Slovakia,471,1,10
+04/04/2020,Togo,41,3,17
+04/04/2020,Vatican City,0,0,0
+04/04/2020,French Guiana,0,0,0
+04/04/2020,Malta,213,0,2
+04/04/2020,Martinique,0,0,0
+04/04/2020,Bangladesh,70,8,30
+04/04/2020,Bulgaria,503,17,34
+04/04/2020,Maldives,19,0,13
+04/04/2020,Moldova,752,12,29
+04/04/2020,Paraguay,96,3,12
+04/04/2020,Republic of Ireland,0,0,0
+04/04/2020,Albania,333,20,99
+04/04/2020,Brunei,135,1,66
+04/04/2020,Cyprus,426,11,33
+04/04/2020,St. Martin,0,0,0
+04/04/2020,"('St. Martin',)",0,0,0
+04/04/2020,Burkina Faso,318,16,66
+04/04/2020,Channel Islands,0,0,0
+04/04/2020,Holy See,7,0,0
+04/04/2020,Mongolia,14,0,2
+04/04/2020,Panama,1673,41,13
+04/04/2020,occupied Palestinian territory,0,0,0
+04/04/2020,Bolivia,139,10,1
+04/04/2020,Congo (Kinshasa),154,18,3
+04/04/2020,Honduras,264,15,3
+04/04/2020,Jamaica,53,3,7
+04/04/2020,Reunion,0,0,0
+04/04/2020,Turkey,23934,501,786
+04/04/2020,Cuba,288,6,15
+04/04/2020,Guyana,23,4,0
+04/04/2020,Antigua and Barbuda,15,0,0
+04/04/2020,Aruba,0,0,0
+04/04/2020,Cayman Islands,0,0,0
+04/04/2020,Ethiopia,38,0,4
+04/04/2020,Guadeloupe,0,0,0
+04/04/2020,Guinea,111,0,5
+04/04/2020,Kazakhstan,531,5,36
+04/04/2020,Kenya,126,4,4
+04/04/2020,Sudan,10,2,2
+04/04/2020,Curacao,0,0,0
+04/04/2020,Eswatini,9,0,0
+04/04/2020,Gabon,21,1,1
+04/04/2020,Ghana,205,5,31
+04/04/2020,Guatemala,61,2,15
+04/04/2020,Guernsey,0,0,0
+04/04/2020,Jersey,0,0,0
+04/04/2020,Mauritania,6,1,2
+04/04/2020,Namibia,14,0,3
+04/04/2020,Rwanda,102,0,0
+04/04/2020,Saint Lucia,14,0,1
+04/04/2020,Saint Vincent and the Grenadines,7,0,1
+04/04/2020,Seychelles,10,0,0
+04/04/2020,Suriname,10,1,0
+04/04/2020,Trinidad and Tobago,103,6,1
+04/04/2020,Uruguay,400,5,93
+04/04/2020,Venezuela,155,7,52
+04/04/2020,Central African Republic,8,0,0
+04/04/2020,Congo (Brazzaville),22,2,2
+04/04/2020,Equatorial Guinea,16,0,1
+04/04/2020,Kosovo,135,1,16
+04/04/2020,Uzbekistan,266,2,25
+04/04/2020,Benin,16,0,2
+04/04/2020,Greenland,0,0,0
+04/04/2020,Guam,0,0,0
+04/04/2020,Liberia,10,1,3
+04/04/2020,Mayotte,0,0,0
+04/04/2020,Puerto Rico,0,0,0
+04/04/2020,Republic of the Congo,0,0,0
+04/04/2020,Somalia,7,0,1
+04/04/2020,Tanzania,20,1,3
+04/04/2020,The Bahamas,0,0,0
+04/04/2020,Barbados,52,0,0
+04/04/2020,Montenegro,201,2,1
+04/04/2020,The Gambia,0,0,0
+04/04/2020,Djibouti,50,0,8
+04/04/2020,"Gambia, The",0,0,0
+04/04/2020,Kyrgyzstan,144,1,9
+04/04/2020,Mauritius,196,7,7
+04/04/2020,Zambia,39,1,2
+04/04/2020,"Bahamas, The",0,0,0
+04/04/2020,Chad,9,0,0
+04/04/2020,El Salvador,56,3,2
+04/04/2020,Fiji,12,0,0
+04/04/2020,Nicaragua,5,1,0
+04/04/2020,Angola,10,2,2
+04/04/2020,Cabo Verde,7,1,0
+04/04/2020,Haiti,20,0,1
+04/04/2020,Madagascar,70,0,0
+04/04/2020,Niger,144,8,0
+04/04/2020,Papua New Guinea,1,0,0
+04/04/2020,Zimbabwe,9,1,0
+04/04/2020,Cape Verde,0,0,0
+04/04/2020,East Timor,0,0,0
+04/04/2020,Eritrea,29,0,0
+04/04/2020,Uganda,48,0,0
+04/04/2020,Bahamas,28,4,0
+04/04/2020,Dominica,14,0,0
+04/04/2020,Gambia,4,1,2
+04/04/2020,Grenada,12,0,0
+04/04/2020,Mozambique,10,0,1
+04/04/2020,Syria,16,2,2
+04/04/2020,Timor-Leste,1,0,0
+04/04/2020,Belize,4,0,0
+04/04/2020,Laos,10,0,0
+04/04/2020,Libya,18,1,0
+04/04/2020,Diamond Princess,712,11,619
+04/04/2020,Guinea-Bissau,18,0,0
+04/04/2020,Mali,41,3,1
+04/04/2020,Saint Kitts and Nevis,9,0,0
+04/04/2020,West Bank and Gaza,217,1,21
+04/04/2020,Burma,21,1,0
+04/04/2020,MS Zaandam,9,2,0
+04/04/2020,Botswana,4,1,0
+04/04/2020,Burundi,3,0,0
+04/04/2020,Sierra Leone,4,0,0
+04/04/2020,Malawi,4,0,0
+04/04/2020,South Sudan,0,0,0
+04/04/2020,Western Sahara,0,0,0
+04/05/2020,Hong Kong,890,4,206
+04/05/2020,Japan,3139,77,514
+04/05/2020,Macau,44,0,10
+04/05/2020,Mainland China,81668,3329,76991
+04/05/2020,South Korea,10237,183,6463
+04/05/2020,Taiwan,363,5,50
+04/05/2020,Thailand,2169,23,793
+04/05/2020,US,337072,9619,17448
+04/05/2020,Australia,5687,35,757
+04/05/2020,Brazil,11130,486,127
+04/05/2020,Colombia,1485,35,88
+04/05/2020,Malaysia,3662,61,1005
+04/05/2020,Mexico,1890,79,633
+04/05/2020,Philippines,3246,152,64
+04/05/2020,Singapore,1309,6,320
+04/05/2020,Vietnam,241,0,90
+04/05/2020,France,93773,8093,16349
+04/05/2020,Nepal,9,0,1
+04/05/2020,Canada,15756,259,3012
+04/05/2020,Cambodia,114,0,50
+04/05/2020,Ivory Coast,261,3,37
+04/05/2020,Sri Lanka,176,5,33
+04/05/2020,Germany,100123,1584,28700
+04/05/2020,Finland,1927,28,300
+04/05/2020,United Arab Emirates,1799,10,144
+04/05/2020,India,3588,99,229
+04/05/2020,Italy,128948,15887,21815
+04/05/2020,Russia,5389,45,355
+04/05/2020,Sweden,6830,401,205
+04/05/2020,UK,48436,4943,229
+04/05/2020,Spain,131646,12641,38080
+04/05/2020,Belgium,19691,1447,3751
+04/05/2020,Others,0,0,0
+04/05/2020,Egypt,1173,78,247
+04/05/2020,Iran,58226,3603,19736
+04/05/2020,Israel,8430,49,477
+04/05/2020,Lebanon,527,18,54
+04/05/2020,Iraq,961,61,279
+04/05/2020,Afghanistan,349,7,15
+04/05/2020,Bahrain,700,4,431
+04/05/2020,Kuwait,556,1,99
+04/05/2020,Oman,298,2,61
+04/05/2020,Algeria,1320,152,90
+04/05/2020,Austria,12051,204,2998
+04/05/2020,Croatia,1182,15,125
+04/05/2020,Switzerland,21100,715,6415
+04/05/2020,Georgia,174,2,36
+04/05/2020,Greece,1735,73,78
+04/05/2020,North Macedonia,555,18,23
+04/05/2020,Norway,5687,71,32
+04/05/2020,Pakistan,3157,47,211
+04/05/2020,Romania,3864,151,374
+04/05/2020,Denmark,4561,179,1429
+04/05/2020,Estonia,1097,15,62
+04/05/2020,Netherlands,17953,1771,257
+04/05/2020,San Marino,266,32,35
+04/05/2020, Azerbaijan,0,0,0
+04/05/2020,Belarus,562,8,52
+04/05/2020,Iceland,1486,4,428
+04/05/2020,Lithuania,811,13,7
+04/05/2020,New Zealand,1039,1,156
+04/05/2020,Nigeria,232,5,33
+04/05/2020,North Ireland,0,0,0
+04/05/2020,Ireland,4994,158,25
+04/05/2020,Luxembourg,2804,36,500
+04/05/2020,Monaco,73,1,3
+04/05/2020,Qatar,1604,4,123
+04/05/2020,Armenia,822,7,57
+04/05/2020,Azerbaijan,584,7,32
+04/05/2020,Czech Republic,4587,67,96
+04/05/2020,Dominican Republic,1745,82,17
+04/05/2020,Ecuador,3646,180,100
+04/05/2020,Andorra,501,18,26
+04/05/2020,Indonesia,2273,198,164
+04/05/2020,Latvia,533,1,1
+04/05/2020,Morocco,1021,70,76
+04/05/2020,Portugal,11278,295,75
+04/05/2020,Saudi Arabia,2402,34,488
+04/05/2020,Senegal,222,2,82
+04/05/2020,Argentina,1451,44,280
+04/05/2020,Chile,4471,34,618
+04/05/2020,Jordan,345,5,110
+04/05/2020,Ukraine,1308,37,28
+04/05/2020,Faroe Islands,0,0,0
+04/05/2020,Gibraltar,0,0,0
+04/05/2020,Hungary,733,34,66
+04/05/2020,Liechtenstein,77,1,0
+04/05/2020,Poland,4102,94,134
+04/05/2020,Saint Barthelemy,0,0,0
+04/05/2020,Tunisia,574,22,5
+04/05/2020,Bosnia and Herzegovina,654,23,30
+04/05/2020,Palestine,0,0,0
+04/05/2020,Slovenia,997,28,79
+04/05/2020,South Africa,1655,11,95
+04/05/2020,Bhutan,5,0,2
+04/05/2020,Cameroon,650,9,17
+04/05/2020,Costa Rica,454,2,16
+04/05/2020,Peru,2281,83,989
+04/05/2020,Serbia,1908,51,0
+04/05/2020,Slovakia,485,1,10
+04/05/2020,Togo,44,3,20
+04/05/2020,Vatican City,0,0,0
+04/05/2020,French Guiana,0,0,0
+04/05/2020,Malta,227,0,5
+04/05/2020,Martinique,0,0,0
+04/05/2020,Bangladesh,88,9,33
+04/05/2020,Bulgaria,531,20,37
+04/05/2020,Maldives,19,0,13
+04/05/2020,Moldova,864,15,30
+04/05/2020,Paraguay,104,3,12
+04/05/2020,Republic of Ireland,0,0,0
+04/05/2020,Albania,361,20,104
+04/05/2020,Brunei,135,1,73
+04/05/2020,Cyprus,446,9,37
+04/05/2020,St. Martin,0,0,0
+04/05/2020,"('St. Martin',)",0,0,0
+04/05/2020,Burkina Faso,345,17,90
+04/05/2020,Channel Islands,0,0,0
+04/05/2020,Holy See,7,0,0
+04/05/2020,Mongolia,14,0,2
+04/05/2020,Panama,1801,46,13
+04/05/2020,occupied Palestinian territory,0,0,0
+04/05/2020,Bolivia,157,10,2
+04/05/2020,Congo (Kinshasa),154,18,3
+04/05/2020,Honduras,268,22,6
+04/05/2020,Jamaica,58,3,8
+04/05/2020,Reunion,0,0,0
+04/05/2020,Turkey,27069,574,1042
+04/05/2020,Cuba,320,8,15
+04/05/2020,Guyana,24,4,0
+04/05/2020,Antigua and Barbuda,15,0,0
+04/05/2020,Aruba,0,0,0
+04/05/2020,Cayman Islands,0,0,0
+04/05/2020,Ethiopia,43,2,4
+04/05/2020,Guadeloupe,0,0,0
+04/05/2020,Guinea,121,0,5
+04/05/2020,Kazakhstan,584,6,42
+04/05/2020,Kenya,142,4,4
+04/05/2020,Sudan,12,2,2
+04/05/2020,Curacao,0,0,0
+04/05/2020,Eswatini,9,0,0
+04/05/2020,Gabon,21,1,1
+04/05/2020,Ghana,214,5,31
+04/05/2020,Guatemala,61,2,15
+04/05/2020,Guernsey,0,0,0
+04/05/2020,Jersey,0,0,0
+04/05/2020,Mauritania,6,1,2
+04/05/2020,Namibia,16,0,3
+04/05/2020,Rwanda,104,0,4
+04/05/2020,Saint Lucia,14,0,1
+04/05/2020,Saint Vincent and the Grenadines,7,0,1
+04/05/2020,Seychelles,10,0,0
+04/05/2020,Suriname,10,1,0
+04/05/2020,Trinidad and Tobago,104,7,1
+04/05/2020,Uruguay,400,5,93
+04/05/2020,Venezuela,159,7,52
+04/05/2020,Central African Republic,8,0,0
+04/05/2020,Congo (Brazzaville),45,5,2
+04/05/2020,Equatorial Guinea,16,0,1
+04/05/2020,Kosovo,145,1,23
+04/05/2020,Uzbekistan,342,2,30
+04/05/2020,Benin,22,0,5
+04/05/2020,Greenland,0,0,0
+04/05/2020,Guam,0,0,0
+04/05/2020,Liberia,13,3,3
+04/05/2020,Mayotte,0,0,0
+04/05/2020,Puerto Rico,0,0,0
+04/05/2020,Republic of the Congo,0,0,0
+04/05/2020,Somalia,7,0,1
+04/05/2020,Tanzania,22,1,3
+04/05/2020,The Bahamas,0,0,0
+04/05/2020,Barbados,56,1,6
+04/05/2020,Montenegro,214,2,1
+04/05/2020,The Gambia,0,0,0
+04/05/2020,Djibouti,59,0,9
+04/05/2020,"Gambia, The",0,0,0
+04/05/2020,Kyrgyzstan,147,1,9
+04/05/2020,Mauritius,227,7,7
+04/05/2020,Zambia,39,1,3
+04/05/2020,"Bahamas, The",0,0,0
+04/05/2020,Chad,9,0,0
+04/05/2020,El Salvador,62,3,2
+04/05/2020,Fiji,12,0,0
+04/05/2020,Nicaragua,6,1,0
+04/05/2020,Angola,14,2,2
+04/05/2020,Cabo Verde,7,1,0
+04/05/2020,Haiti,21,1,1
+04/05/2020,Madagascar,72,0,2
+04/05/2020,Niger,184,10,13
+04/05/2020,Papua New Guinea,1,0,0
+04/05/2020,Zimbabwe,9,1,0
+04/05/2020,Cape Verde,0,0,0
+04/05/2020,East Timor,0,0,0
+04/05/2020,Eritrea,29,0,0
+04/05/2020,Uganda,52,0,0
+04/05/2020,Bahamas,28,4,0
+04/05/2020,Dominica,14,0,0
+04/05/2020,Gambia,4,1,2
+04/05/2020,Grenada,12,0,0
+04/05/2020,Mozambique,10,0,1
+04/05/2020,Syria,19,2,2
+04/05/2020,Timor-Leste,1,0,0
+04/05/2020,Belize,5,0,0
+04/05/2020,Laos,11,0,0
+04/05/2020,Libya,18,1,0
+04/05/2020,Diamond Princess,712,11,619
+04/05/2020,Guinea-Bissau,18,0,0
+04/05/2020,Mali,45,5,1
+04/05/2020,Saint Kitts and Nevis,10,0,0
+04/05/2020,West Bank and Gaza,237,1,25
+04/05/2020,Burma,21,1,0
+04/05/2020,MS Zaandam,9,2,0
+04/05/2020,Botswana,6,1,0
+04/05/2020,Burundi,3,0,0
+04/05/2020,Sierra Leone,6,0,0
+04/05/2020,Malawi,4,0,0
+04/05/2020,South Sudan,1,0,0
+04/05/2020,Western Sahara,4,0,0
