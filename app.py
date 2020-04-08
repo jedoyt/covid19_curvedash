@@ -36,7 +36,7 @@ navbar = dbc.NavbarSimple(dbc.NavItem(children=[html.A(html.Img(src="https://ima
 
 ### UPPER CONTENT ###
 # CONTENT 1: TOPLINE DATA ON PHILIPPINES
-locale.setlocale(locale.LC_ALL, 'en_US')
+locale.setlocale(locale.LC_ALL, '')
 
 PH_kaggle_filter = (df['country'] == 'Philippines') & (df['date'] == df.iloc[-1]['date'])
 PH_kaggle_df = df[PH_kaggle_filter]
