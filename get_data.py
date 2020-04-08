@@ -96,8 +96,3 @@ def get_top20_summarydf(df,date):
     df_top20.index = [ i+1 for i in range(20)]
 
     return df_top20
-
-#date = '04/05/2020'
-#df = pd.read_csv('datasets/revised_covid_19_data.csv')
-#sub_df = get_top20_summarydf(df,date)
-#print(sub_df.loc[1])
