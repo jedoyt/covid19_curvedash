@@ -42,10 +42,17 @@ def revise_covid19_data():
           data_dict['recovered'].append(0)
 
   rev_df = pd.DataFrame(data_dict)
+  # Added columns
+  rev_df['active'] = rev_df['confirmed'] - rev_df['deaths'] - rev_df['recovered']
+  rev_df['death_rate'] = (rev_df['deaths'] / rev_df['confirmed']) * 100
+  rev_df['death_rate'] = rev_df['death_rate'].round(2).astype(str) + " %"
+  rev_df['recovery_rate'] = (rev_df['recovered'] / rev_df['confirmed']) * 100
+  rev_df['recovery_rate'] = rev_df['recovery_rate'].round(2).astype(str) + " %"
+
   rev_df.to_csv('revised_covid_19_data.csv',index=False)
   print(rev_df.head())
   print(rev_df.tail())
 
   return rev_df
 
-revise_covid19_data()
+print(revise_covid19_data())
