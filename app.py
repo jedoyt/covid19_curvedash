@@ -3,7 +3,7 @@ import dash_core_components as dcc
 import dash_html_components as html 
 import dash_bootstrap_components as dbc 
 from dash.dependencies import Input, Output
-from get_data import get_PH_topline_data, get_global_data, _top20_summary_desc, get_top20_summarydf
+from get_data import get_global_data, _top20_summary_desc, get_top20_summarydf #, get_PH_topline_data
 from trace_figure import load_lineplot_fig, load_bubbleplot_fig, generate_hexcolors
 import pandas as pd
 import locale # Used for formatting large number to have commas
@@ -14,7 +14,9 @@ app.config.suppress_callback_exceptions = True
 server = app.server
 
 # FETCH ALL NEEDED DATA IN PANDAS DATAFRAMES
-ph_topline_df = get_PH_topline_data() # Latest data on PH
+#ph_topline_data = get_PH_topline_data() # Latest data on PH from: https://ncovph.com/
+#print('Fetched Topline Data from API (https://ncovph.com/):')
+#print(ph_topline_data)
 df = get_global_data() # Global Data
 
 # DASHBOARD COMPONENTS #
@@ -42,9 +44,9 @@ PH_kaggle_filter = (df['country'] == 'Philippines') & (df['date'] == df.iloc[-1]
 PH_kaggle_df = df[PH_kaggle_filter]
 
 topline_header = [html.Thead(html.Tr([html.Th("Confirmed"), html.Th("Deaths"), html.Th("Recovered")]))]
-topline_body = [html.Tbody(children=[html.Tr(children = [#html.Td(html.H2(ph_topline_df.loc['confirmed']['count'])),    # From API
-                                                         #html.Td(html.H2(ph_topline_df.loc['deaths']['count'])),       # From API
-                                                         #html.Td(html.H2(ph_topline_df.loc['recovered']['count'])),    # From API
+topline_body = [html.Tbody(children=[html.Tr(children = [#html.Td(html.H2(ph_topline_data['confirmed'])), # From API
+                                                         #html.Td(html.H2(ph_topline_data['deceased'])),  # From API
+                                                         #html.Td(html.H2(ph_topline_data['recovered'])), # From API
                                                          html.Td(html.H2(PH_kaggle_df['confirmed'])),   # From Kaggle
                                                          html.Td(html.H2(PH_kaggle_df['deaths'])),      # From Kaggle
                                                          html.Td(html.H2(PH_kaggle_df['recovered']))    # From Kaggle
@@ -52,7 +54,8 @@ topline_body = [html.Tbody(children=[html.Tr(children = [#html.Td(html.H2(ph_top
                                      ])]
 topline_table = dbc.Table(topline_header + topline_body, bordered=False)
 
-topline_left = dbc.Col(children=[html.H5(f"Philippines as of {df.iloc[-1]['date']}", className="display-5"),
+topline_left = dbc.Col(children=[#html.H5("Philippines Latest Counts:", className="display-5"), # If using API Data
+                                 html.H5(f"Philippines as of {df.iloc[-1]['date']}", className="display-5"), # If using Kaggle dataset
                                  html.Hr(className="my-2"),
                                  topline_table
                                  ])
@@ -61,7 +64,7 @@ topline_left = dbc.Col(children=[html.H5(f"Philippines as of {df.iloc[-1]['date'
 topline_right = dbc.Col(children=[html.H5("Data Sources", className="display-5"),
                                   html.Hr(className="my-2"),
                                   dbc.Row([ dbc.Col(html.Small("On latest PH counts:")),
-                                            dbc.Col(html.A('Github (Not Available as of the moment', href="https://github.com/jasontalon/ncov-tracker"))]),
+                                            dbc.Col(html.A('ncovph (No longer available)', href="https://ncovph.com/"))]),
                                   dbc.Row([ dbc.Col(html.Small("On global data for visualizations:")),
                                             dbc.Col(html.A('Kaggle', href="https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset"))])
                                   ])
@@ -150,7 +153,7 @@ top20_summary = dbc.Jumbotron(children=[html.H6(_top20_summary_desc(date=date)),
                                         ], id='top20-date')
 
 bubble_graph_container = dbc.Jumbotron(children=[   html.H4("COVID-19 Global Data: Bubble Plot"),
-                                                    html.P("This graph only shows the daily top 10 countries based on number of confirmed cases. The size of the bubble indicates the number of confirmed cases. Use slider below the graph to see daily changes.", className="display-7"),
+                                                    html.P("This graph only shows the daily top 10 countries based on number of currently active cases. The size of the bubble indicates the cumulative number of confirmed cases. Use slider below the graph to see daily changes.", className="display-7"),
                                                     bubble_graph,
                                                     bubble_slider,
                                                     html.Small(f"Data on this graph is as of {df.iloc[-1]['date']}"),

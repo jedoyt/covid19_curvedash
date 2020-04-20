@@ -2,21 +2,13 @@ import requests
 import json
 import pandas as pd
 
-
 def get_PH_topline_data():
     '''
-    Read JSON Data from API: https://github.com/jasontalon/ncov-tracker
-    OUTPUT: returns a dataframe of latest data on this format
-                count error
-    type                  
-    tests       5530  None
-    deaths       144  None
-    PUIs        1323  None
-    PUMs           0  None
-    recovered     57  None
-    confirmed   3094  None
+    Read JSON Data from API: https://ncovph.com/
+    OUTPUT: returns a dictionary of latest data on this format
+    {"confirmed":3764,"pui":null,"pum":null,"recovered":84,"deceased":177,"tests":null}
     '''
-    api_key = 'https://ncov-tracker-slexwwreja-de.a.run.app/numbers'
+    api_key = 'https://ncovph.com/api/counts'
 
     res = requests.get(api_key)
     try:
@@ -24,20 +16,9 @@ def get_PH_topline_data():
     except Exception as exc:
         print('There was a problem: %s' % (exc))
 
-    topline_dictlist = json.loads(res.text)
-    print('Extracted JSON Data:\n',topline_dictlist)
+    topline_dict = json.loads(res.text)
 
-    # Reorganize dictionary
-    topline_dict = {key: [] for key in topline_dictlist[0].keys()}
-    for dict_item in topline_dictlist:
-        for key in dict_item.keys():
-            topline_dict[key].append(dict_item[key])    
-
-    # Build DataFrame out of the dictionary
-    df = pd.DataFrame(topline_dict)
-    df.set_index('type', inplace=True)
-
-    return df
+    return topline_dict
 
 # Data on Hospitals in the Philippines
 def get_PH_hospital_data():

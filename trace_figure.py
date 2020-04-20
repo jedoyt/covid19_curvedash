@@ -56,17 +56,19 @@ def load_bubbleplot_fig(df,date,color_settings):
     df_bydate = df[df['date'] == date].copy()
     df_bydate = df_bydate[df_bydate['country'] != 'Others'] # Exlude the 'Others'
     # Filter only top 10 countries based on confirmed cases
-    df_bydate = df_bydate.nlargest(10,'confirmed')
+    df_bydate = df_bydate.nlargest(10,'active')
 
     # Set X values as recovery rate in percentage
     x_vals = round(df_bydate['recovered'] / df_bydate['confirmed'],4)
+    y_vals = round(df_bydate['deaths'] / df_bydate['confirmed'],4)
 
     data = go.Scatter(  x= x_vals,
-                        y= df_bydate['deaths'],
+                        #y= df_bydate['deaths'],
+                        y=y_vals,
                         mode='markers+text',
                         text= df_bydate['country'],
                         marker={'color': color_settings,
-                                'size': df_bydate['confirmed'] * 0.001
+                                'size': df_bydate['confirmed'] * 0.0005
                                 }
                         )
 
@@ -77,13 +79,15 @@ def load_bubbleplot_fig(df,date,color_settings):
     layout = go.Layout( title = f'COVID-19 Bubble Plot ({str(revised_date)})',
                         xaxis = dict(   title ='Recovery Rate in %',
                                         tickmode = 'array',
-                                        tickvals = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
+                                        tickvals = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
                                         ),
                         xaxis_tickformat = '%',
-                        yaxis = dict(   title = 'Death Counts',
+                        yaxis = dict(   title = 'Fatality Rate in %',
                                         tickmode = 'array',
-                                        tickvals = [0, 500, 1000, 5000, 10000, 15000, 20000, 25000]
+                                        #tickvals = [0, 1000, 5000, 10000, 15000, 20000, 25000, 30000]
+                                        tickvals = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
                                         ),
+                        yaxis_tickformat = '%',
                         hovermode='x',
                         )
 

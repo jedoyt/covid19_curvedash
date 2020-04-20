@@ -1,5 +1,5 @@
 import pandas as pd
-import plotly.graph_objs as go
+import plotly.graph_objects as go
 
 class CountryCovidData:
     '''
@@ -128,3 +128,53 @@ class CountryCovidData:
                            )
 
         return go.Figure(data=data, layout=layout)
+
+###### ADDITIONAL METHODS FOR BUBBLE PLOT ######
+import random
+from datetime import datetime
+
+def load_bubbleplot_df():
+    # DATA PREPARATIONS
+    filepath = 'covid_data/novel-corona-virus-2019-dataset/revised_covid_19_data.csv'
+    df = pd.read_csv(filepath, index_col=0,parse_dates=['date'])
+
+    df['country'] = df['country'].replace(' Azerbaijan', 'Azerbaijan') # minor country correction
+
+    # Final revisions
+    df.sort_values(by=['country','date'],inplace=True)
+    df.reset_index(inplace=True)
+    
+    return df
+
+### GENERATE HEXCOLOR FUNCTION###
+def generate_hexcolors(df):
+    rgb = lambda: f"rgb({random.randint(0,255)},{random.randint(0,255)},{random.randint(0,255)})"
+    return [rgb() for _ in range(len(df['country'].unique()))]
+
+### TRACE FUNCTION ###
+def trace_bydate(df,date,country_colors):
+    df_date = df[df['date'] == date].copy()
+
+
+    ### TRACE USING plotly_graph_objects ###
+    trace01 = go.Scatter(x = df_date['recovered'],
+                    y = df_date['deaths'],
+                    mode = 'markers+text',
+                    text = df_date['country'],
+                    marker = dict(color = country_colors,
+                                    size = df_date['confirmed'] * 0.0015
+                                    )
+                    )
+    data = [trace01]
+
+    # Format Date
+    parsed_date = datetime.strptime(str(date)[:10],"%Y-%m-%d")
+    revised_date = datetime.strftime(parsed_date,"%B %-d, %Y")
+
+    layout = go.Layout(title = f'COVID-19 Bubble Plot ({str(revised_date)})',
+                    xaxis = dict(title='Recovered'),
+                    yaxis = dict(title='Deaths'),
+                    hovermode='closest',
+                    )
+
+    return go.Figure(data=data, layout=layout)
