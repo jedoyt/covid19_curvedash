@@ -77,3 +77,20 @@ def get_top20_summarydf(df,date):
     df_top20.index = [ i+1 for i in range(20)]
 
     return df_top20
+
+def get_asean_dailydf(date,df=pd.read_csv('datasets/asean_covid_19_data.csv')):
+    '''
+    Returns a dataframe containing COVID-19 Data of ASEAN Countries
+    on a chosen date
+    Important Note: Make sure datasets are updated by running
+    'revise_covid19.py'.
+    Only two parameter
+    date - 'str', date on this format 'MM/DD/YYYY'
+    df - dataframe, filtered covid-19 dataset containing only ASEAN Countries
+    '''
+
+    df_bydate = df[df['date'] == date].copy()
+    df_bydate.sort_values(by='confirmed',ascending=False,inplace=True)
+    df_bydate.set_index([pd.Index(range(1,len(df_bydate['country'])+1))],inplace=True)
+
+    return df_bydate
